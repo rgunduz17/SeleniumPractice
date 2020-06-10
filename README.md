@@ -21,9 +21,9 @@ B) Locators:
   
 C) Selenium Topics:
   1) Dropdowns
-    1. Handling Static Dropdowns
-    2. Handling Dynamic Dropdowns
-    3. Auto Suggestive Dropdowns
-    4. Auto Complete Dropdowns
+    A) Handling Static Dropdowns
+    B) Handling Dynamic Dropdowns
+    C) Auto Suggestive Dropdowns
+    D) Auto Complete Dropdowns
   
   2) Basic Authentication
