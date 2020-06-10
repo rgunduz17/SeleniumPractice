@@ -20,6 +20,7 @@ public class ByID {
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
 
+
         driver.get("http://facebook.com");
 
         // 1.Inspect the elements
