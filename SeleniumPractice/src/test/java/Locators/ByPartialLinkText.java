@@ -30,6 +30,7 @@ public class ByPartialLinkText {
 
         // 6. Navigate your browser back
 
+        driver.navigate().back();
 
         // 7. Use the PartialLinkText of "Sel" from "Sell" and click
 
