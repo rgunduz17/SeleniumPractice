@@ -1,6 +1,8 @@
 package Locators;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ByName {
@@ -16,14 +18,17 @@ public class ByName {
 
         // 2.Find the name of email input box, type random email (Sendkeys)
 
-
+        driver.findElement(By.name("username")).sendKeys("instagram@gmail.com");
         // 3.Find the name of password input box, type random password (Sendkeys)
 
-
+        driver.findElement(By.name("password")).sendKeys("Password12345" + Keys.ENTER);
         // 4.And press ENTER (SendKeys(Keys.ENTER))
 
+      //  driver.findElement(By.name("password")).sendKeys(Keys.ENTER);
 
         // 5. Close the tab
+
+        driver.close();
 
 
 

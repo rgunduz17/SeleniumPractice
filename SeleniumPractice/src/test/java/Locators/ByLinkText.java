@@ -11,28 +11,30 @@ public class ByLinkText {
         ChromeDriver driver = new ChromeDriver();
 
         driver.navigate().to("https://www.amazon.com/");
+     //   driver.get("https://www.amazon.com/");
 
         // 1. Inspect the page source
 
-
         // 2. Maximize the window
 
+        driver.manage().window().maximize();
 
         // 3. Find the LinkText of "AmazonBasics" and click
 
-
+        driver.findElement(By.linkText("AmazonBasics")).click();
         // 4. Navigate your browser back
 
-
+        driver.navigate().back();
         // 5. Find the LinkText of  "Free Shipping" and click
 
-
+        driver.findElement(By.linkText("Free Shipping")).click();
         // 6. Refresh your browser
 
+        driver.navigate().refresh();
 
         // 7. Close the tab
 
-
+        driver.close();
 
     }
 }

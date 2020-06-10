@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Basic_Authentication {
 
-// Github Test
+
 
 
     //  1. Create a method (public static and no return type) and name it to CodeBlock and use " WebDriver driver " as a parameter

@@ -20,12 +20,13 @@ public class ByPartialLinkText {
 
         // 3. Use the PartialLinkText of "Service" from "Costumer Service" and click
 
-
+        driver.findElement(By.partialLinkText("Service")).click();
         // 4. Navigate your browser back
-
+        driver.navigate().back();
 
         // 5. Use the PartialLinkText of "Services" from "Sell your Services on Amazon" and click
 
+        driver.findElement(By.partialLinkText("Services")).click();
 
         // 6. Navigate your browser back
 

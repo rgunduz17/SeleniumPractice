@@ -26,15 +26,18 @@ public class ByID {
         // 1.Inspect the elements
 
         // 2.Find the id of email input box, type random email (Sendkey)
-
+        driver.findElement(By.id("email")).sendKeys("anyemail@gmail.com");
 
         // 3.Find the id of password input box, type random password (Sendkey)
+
+        driver.findElement(By.id("pass")).sendKeys("MyPassword");
 
 
         // 4.Find the id of Log in Button then click.
 
+        driver.findElement(By.id("u_0_b")).click();
 
         // 5. Close the tab
-
+        driver.close();
     }
 }
