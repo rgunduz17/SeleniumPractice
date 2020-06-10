@@ -19,7 +19,7 @@ B) Locators:
   7. By XPath
   8. By CSS Selector
   
-C) Selenium Topics
+C) Selenium Topics:
   1) Dropdowns
     1. Handling Static Dropdowns
     2. Handling Dynamic Dropdowns
