@@ -20,10 +20,10 @@ B) Locators:
   8. By CSS Selector
   
 C) Selenium Topics:
-  1) Dropdowns
-    A) Handling Static Dropdowns
-    B) Handling Dynamic Dropdowns
-    C) Auto Suggestive Dropdowns
-    D) Auto Complete Dropdowns
+  1) Dropdowns <br />
+    A) Handling Static Dropdowns <br />
+    B) Handling Dynamic Dropdowns <br />
+    C) Auto Suggestive Dropdowns <br />
+    D) Auto Complete Dropdowns <br />
   
   2) Basic Authentication
