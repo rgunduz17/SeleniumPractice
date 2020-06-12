@@ -23,22 +23,26 @@ C) Selenium Topics:
 
   1) Basic Authentication<br />
   
-  2) Dropdowns <br />
+  2) Checkboxes<br />
+    A)Radio Buttons<br />
+    B)Checkboxes<br />
+  
+  3) Dropdowns <br />
     A) Handling Static Dropdowns <br />
     B) Handling Dynamic Dropdowns <br />
     C) Auto Suggestive Dropdowns <br />
     D) Auto Complete Dropdowns <br />
     
-  3) MultipleWindows<br />
+  4) MultipleWindows<br />
     A)MultipleWindows_1<br />
     B)MultipleWindows_2<br />
     C)MultipleWindows_3<br />
     D)OpenALinkInANewWindow<br />
     E)SwitchTheWindows<br />
   
-  4) Screenshots<br />
+  5) Screenshots<br />
   
-  5) Waits_SynchrnizationTypes<br />
+  6) Waits_SynchrnizationTypes<br />
      A)Explicit Wait<br />
      B)Implicit Wait<br />
      C)Fluent Wait<br />
