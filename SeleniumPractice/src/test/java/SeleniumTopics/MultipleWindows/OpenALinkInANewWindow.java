@@ -19,6 +19,7 @@ public class OpenALinkInANewWindow {
         driver.get("https://the-internet.herokuapp.com/");
 
         // Mac Users
+
         String selectLinkOpeninNewTab = Keys.chord(Keys.COMMAND,Keys.RETURN);
         driver.findElement(By.linkText("A/B Testing")).sendKeys(selectLinkOpeninNewTab);
 

@@ -9,8 +9,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Basic_Authentication {
-
-
+        static String pageMessage;
+        public static void CodeBlock (WebDriver driver) throws InterruptedException {
+            driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+            driver.manage().window().maximize();
+            Thread.sleep(3000);
+            driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
+            Thread.sleep(3000);
+          pageMessage=  driver.findElement(By.xpath("//*[@id=\"content\"]/div/p")).getText();
+            driver.quit();
+        }
 
 
     //  1. Create a method (public static and no return type) and name it to CodeBlock and use " WebDriver driver " as a parameter
@@ -61,10 +69,12 @@ public class Basic_Authentication {
 
     // 2. Print the pageMessage
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
+        CodeBlock(driver);
+        System.out.println(pageMessage);
 
     }
 }

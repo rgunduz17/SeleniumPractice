@@ -17,20 +17,23 @@ public class MultipleWindows_1 {
         driver.get("https://the-internet.herokuapp.com/");
 
         // 1. Click on "Multiple windows"
-
+        driver.findElement(By.linkText("Multiple Windows")).click();
 
         // 2. Click on "click here" link ==> opens child window
-
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div/a")).click();
 
         // 3. Return the parent window name as a String (need to use getWindowHandle();  )
 
+        String parent = driver.getWindowHandle();
 
-
+        Thread.sleep(3000);
         // 4. switchTo() parent window
 
-
-
+        driver.switchTo().window(parent);
+        Thread.sleep(3000);
         // 5. Quit from driver
+
+        driver.quit();
 
 
 
