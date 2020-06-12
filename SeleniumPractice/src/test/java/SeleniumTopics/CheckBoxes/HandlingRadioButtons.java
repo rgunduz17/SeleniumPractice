@@ -16,6 +16,11 @@ public class HandlingRadioButtons {
         driver.manage().window().maximize();
         driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 
+        // 2.  Put an Implicit wait, this means that
+        //     any search for elements on the page could take the time
+        //      the implicit wait is set for before throwing exception
+
+
         // 1. Choose Radio1 button and click on it
 
 

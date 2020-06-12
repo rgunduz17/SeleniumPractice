@@ -42,7 +42,7 @@ public class Basic_Authentication {
 
 
 
-    // 2. //  Put an Implicit wait, this means that
+    // 2.  Put an Implicit wait, this means that
     //     any search for elements on the page could take the time
     //      the implicit wait is set for before throwing exception
 
@@ -65,6 +65,6 @@ public class Basic_Authentication {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.manage().window().maximize();
+
     }
 }
