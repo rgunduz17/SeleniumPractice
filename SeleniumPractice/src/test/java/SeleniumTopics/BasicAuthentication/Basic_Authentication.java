@@ -42,17 +42,17 @@ public class Basic_Authentication {
 
 
 
-    // 2.  Put an Implicit wait, this means that
+    // 3.  Put an Implicit wait, this means that
     //     any search for elements on the page could take the time
     //      the implicit wait is set for before throwing exception
 
 
 
-    // 3. Get the text from page that shows successfully logged in. (Congratulations! You must have the proper credentials.)
+    // 4. Get the text from page that shows successfully logged in. (Congratulations! You must have the proper credentials.)
 
 
 
-    // 4. Quit from browser
+    // 5. Quit from browser
 
 
     // Inside the main method:
