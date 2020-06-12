@@ -23,9 +23,9 @@ public class MultipleWindows_3 {
 
 
 
-        // 2. Use collections to save windows
+        // 2. Use collections to save windows (Set or ArrayList)
 
-        Set<String> ids = driver.getWindowHandles();
+
 
         // 3. Use iterator to switch windows
 
