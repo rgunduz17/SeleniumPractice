@@ -20,10 +20,19 @@ B) Locators:
   8. By CSS Selector
   
 C) Selenium Topics:
-  1) Dropdowns <br />
+
+  1) Basic Authentication<br />
+  
+  2) Dropdowns <br />
     A) Handling Static Dropdowns <br />
     B) Handling Dynamic Dropdowns <br />
     C) Auto Suggestive Dropdowns <br />
     D) Auto Complete Dropdowns <br />
+    
+  3) MultipleWindows<br />
+    A)MultipleWindows_1<br />
+    B)MultipleWindows_2<br />
+    C)MultipleWindows_3<br />
+    D)OpenALinkInANewWindow<br />
+    E)SwitchTheWindows<br />
   
-  2) Basic Authentication
