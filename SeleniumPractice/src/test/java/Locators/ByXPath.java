@@ -14,9 +14,11 @@ public class ByXPath {
         driver.get("https://login.salesforce.com/");
 
         // 1. Maximize the page
-
+        driver.manage().window().maximize();
 
         // 2. Delete all cookies
+
+        driver.manage().deleteAllCookies();
 
 
         /*
@@ -49,17 +51,20 @@ public class ByXPath {
 
         // 3. Find the xpath of "username" input box and send key your random username
 
+        driver.findElement(By.xpath("//*[@id ='username']")).sendKeys("Test");
+      //  driver.findElement(By.xpath("//input[@name=\"username\"]")).sendKeys("Test");
 
+        //  //*[@id="username"]
 
 
 
         // 4. Find the xpath of "password" input box and send key your random password
 
-
+        driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Password");
 
         // 5. Find the xpath of "Log In" button and click
 
-
+        driver.findElement(By.xpath("//*[@id=\"Login\"]")).click();
 
 
 

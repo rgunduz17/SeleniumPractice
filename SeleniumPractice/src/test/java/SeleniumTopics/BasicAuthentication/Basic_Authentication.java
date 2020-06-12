@@ -42,7 +42,9 @@ public class Basic_Authentication {
 
 
 
-    // 2. Add implicitly wait for 10 seconds
+    // 2. //  Put an Implicit wait, this means that
+    //     any search for elements on the page could take the time
+    //      the implicit wait is set for before throwing exception
 
 
 
@@ -59,31 +61,5 @@ public class Basic_Authentication {
 
     // 2. Print the pageMessage
 
-    static String pageMessage;
 
-    public static void codeBlock(WebDriver driver)  {
-
-        // to authenticate username and password
-        // http://username:password@test.com
-
-        driver.get("http://admin:admin@the-internet.herokuapp.com/basic_auth");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        pageMessage = driver.findElement(By.cssSelector("p")).getText();
-
-
-        driver.quit();
-
-    }
-
-    public static void main(String[] args) {
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        codeBlock(driver);
-        System.out.println(pageMessage);
-
-
-
-
-    }
 }

@@ -14,10 +14,11 @@ public class ByCssSelector {
 
 
         // 1. Maximize the page
-
+        driver.manage().window().maximize();
 
         // 2. Delete all cookies
 
+        driver.manage().deleteAllCookies();
         /*
         HOW TO CREATE CSS
 
@@ -39,20 +40,20 @@ public class ByCssSelector {
         // 3. Find the CSS Selector of "username" input box and send key your random username
 
         // a)  #value
-
+            driver.findElement(By.cssSelector("#username")).sendKeys("HelloWorld");
 
         // b)  tagName#value
 
-
+     //   driver.findElement(By.cssSelector("input#username")).sendKeys("HelloWorld");
 
 
 
         // 4. Find the CSS Selector of "password" input box and send key your random password
-
+        driver.findElement(By.cssSelector("#password")).sendKeys("Password");
 
 
         // 5. Find the CSS Selector of "Log In" button and click
-
+        driver.findElement(By.cssSelector("#Login")).click();
 
 
 
