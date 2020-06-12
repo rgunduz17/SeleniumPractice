@@ -38,7 +38,7 @@ C) Selenium Topics:
   
   4) Screenshots<br />
   
-  5)Waits_SynchrnizationTypes<br />
-    A)Explicit Wait<br />
-    B)Implicit Wait<br />
-    C)Fluent Wait<br />
+  5) Waits_SynchrnizationTypes<br />
+     A)Explicit Wait<br />
+     B)Implicit Wait<br />
+     C)Fluent Wait<br />
