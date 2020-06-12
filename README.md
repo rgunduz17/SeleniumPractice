@@ -36,3 +36,9 @@ C) Selenium Topics:
     D)OpenALinkInANewWindow<br />
     E)SwitchTheWindows<br />
   
+  4) Screenshots<br />
+  
+  5)Waits_SynchrnizationTypes<br />
+    A)Explicit Wait<br />
+    B)Implicit Wait<br />
+    C)Fluent Wait<br />
