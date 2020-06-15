@@ -22,12 +22,14 @@ public class TakeAScreenshot {
         driver.manage().window().maximize();
         Thread.sleep(2000);
 
+        // Create a pathway to save your screenshots(Use // between paths)
+
 
         // Create File Class assign it to output type
 
 
-        // Locate your path and your screenshots will be save to this location
 
+        // Locate your path and your screenshots will be save to this location
     }
 
 }

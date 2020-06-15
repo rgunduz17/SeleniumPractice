@@ -17,6 +17,8 @@ public class TakeMultipleScreenShots {
         driver.manage().window().maximize();
         Thread.sleep(2000);
 
+        // Create a pathway to save your screenshots(Use // between paths)
+
 
         // Set the local Date Time
 
