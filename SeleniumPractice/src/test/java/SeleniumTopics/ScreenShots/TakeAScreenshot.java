@@ -11,25 +11,28 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.concurrent.TimeUnit;
 
 public class TakeAScreenshot {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
-        Thread.sleep(2000);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         // Create a pathway to save your screenshots(Use // between paths)
-
+        String pathName= "//Users//ridvangunduz//Desktop//selenium//Screenshots//screenshot.png";
 
         // Create File Class assign it to output type
 
-
+        File source= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
         // Locate your path and your screenshots will be save to this location
+
+        FileUtils.copyFile(source, new File(pathName));
     }
 
 }
