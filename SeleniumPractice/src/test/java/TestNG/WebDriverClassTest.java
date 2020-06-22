@@ -1,9 +1,9 @@
 package TestNG;
 
+import Utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -11,13 +11,14 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class WebdriverClass {
+public class WebDriverClassTest
+{
 
-    private WebDriver driver;
+    private WebDriver driver= WebDriverFactory.getDriver("chrome");
 
     @BeforeClass
     public void beforeClass() {
-        driver = new FirefoxDriver();
+        driver = WebDriverFactory.getDriver("firefox");
     }
 
     @AfterClass
@@ -38,5 +39,7 @@ public class WebdriverClass {
         String text = search_button.getAttribute("value");
 
         Assert.assertEquals(text, search_text, "Text not found!");
+
+        driver.quit();
     }
 }

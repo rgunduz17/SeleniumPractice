@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/ridvangunduz/IdeaProjects/SeleniumPracticeTest/SeleniumPractice">
+        <classes>
+            <class name="Maven.MavenSecondTest">
+                <methods>
+                    <exclude name="dummyTestOne"/>
+                    <exclude name="dummyTestTwo"/>
+                    <exclude name="dummyTestThree"/>
+                </methods>
+            </class>
+            <class name="Maven.MavenTest">
+                <methods>
+                    <include name="BrowserAutomation"/>
+                    <include name="elementsUI"/>
+                </methods>
+            </class>
+            <class name="TestNG.Practice">
+                <methods>
+                    <include name="firstTest1"/>
+                    <include name="SecondTest2"/>
+                </methods>
+            </class>
+            <class name="TestNG.TestPage">
+                <methods>
+                    <include name="titleTest"/>
+                </methods>
+            </class>
+            <class name="TestNG.WebDriverClassTest">
+                <methods>
+                    <include name="verifySearchButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

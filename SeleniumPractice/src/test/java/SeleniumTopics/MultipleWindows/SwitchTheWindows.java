@@ -1,6 +1,6 @@
 package SeleniumTopics.MultipleWindows;
 
-import com.sun.java.swing.plaf.windows.resources.windows;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class SwitchTheWindows {

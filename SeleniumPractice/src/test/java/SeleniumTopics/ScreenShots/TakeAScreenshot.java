@@ -9,8 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+
 import java.util.concurrent.TimeUnit;
 
 public class TakeAScreenshot {

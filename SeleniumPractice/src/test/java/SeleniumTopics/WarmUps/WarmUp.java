@@ -1,4 +1,4 @@
-package SeleniumTopics;
+package SeleniumTopics.WarmUps;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -25,6 +25,7 @@ f. “Powered byCybertek School” text
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+
 
         driver.get("http://practice.cybertekschool.com/forgot_password");
 
