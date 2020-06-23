@@ -1,4 +1,4 @@
-# SeleniumPractice
+# Practice
 
 
 SELENIUM TOPICS

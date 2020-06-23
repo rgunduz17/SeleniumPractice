@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="/Users/ridvangunduz/IdeaProjects/SeleniumPracticeTest/SeleniumPractice">
+          name="/Users/ridvangunduz/IdeaProjects/SeleniumPracticeTest/Practice">
         <classes>
             <class name="Maven.MavenSecondTest">
                 <methods>
