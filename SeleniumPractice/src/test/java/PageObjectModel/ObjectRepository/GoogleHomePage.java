@@ -1,11 +1,9 @@
 package PageObjectModel.ObjectRepository;
 
-import Utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
 
 public class GoogleHomePage {
 
@@ -40,19 +38,7 @@ public class GoogleHomePage {
 
 
 
-    @Test
-    public void RunTestCase(){
-        driver= WebDriverFactory.getDriver("chrome");
-       driver.manage().window().maximize();
-        driver.navigate().to("https://www.google.com/");
 
-//        GoogleHomePage homePage = new GoogleHomePage(driver);
-//        homePage.getSearchBox().sendKeys("Book");
-//        homePage.getHomePage().click();
-//        homePage.getGmailLink().click();
-
-        getSearchBox().sendKeys("Book");
-    }
 
 
 

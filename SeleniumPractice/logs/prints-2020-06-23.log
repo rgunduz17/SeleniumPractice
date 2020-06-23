@@ -1,0 +1,12 @@
+15:23:27.723 [main] DEBUG PageObjectModel.TestCases.GoogleTest - gets title and quit driver
+15:23:27.730 [main] INFO  PageObjectModel.TestCases.GoogleTest - Completed Successfully
+15:23:27.732 [main] INFO  PageObjectModel.TestCases.GoogleTest - Test ended!!!
+15:26:49.599 [main] DEBUG PageObjectModel.TestCases.GoogleTest - Goes to given url
+15:26:49.612 [main] INFO  PageObjectModel.TestCases.GoogleTest - Test is starting...
+15:26:56.535 [main] DEBUG PageObjectModel.TestCases.GoogleTest - Running Test Cases
+15:26:56.884 [main] DEBUG PageObjectModel.TestCases.GoogleTest - gets title and quit driver
+15:26:56.886 [main] INFO  PageObjectModel.TestCases.GoogleTest - Completed Successfully
+15:26:56.889 [main] INFO  PageObjectModel.TestCases.GoogleTest - Test ended!!!
+15:27:29.855 [main] DEBUG PageObjectModel.TestCases.GoogleTest - Goes to given url
+15:27:29.868 [main] INFO  PageObjectModel.TestCases.GoogleTest - Test is starting...
+15:27:35.076 [main] DEBUG PageObjectModel.TestCases.GoogleTest - Running Test Cases
