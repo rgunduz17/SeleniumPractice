@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="37421" started-at="2020-06-22T22:58:16 CDT" finished-at="2020-06-22T22:58:54 CDT">
+    <groups>
+    </groups>
+    <test name="/Users/ridvangunduz/IdeaProjects/SeleniumPracticeTest/SeleniumPractice/src/test/java/SeleniumTopics/DropDowns" duration-ms="37421" started-at="2020-06-22T22:58:16 CDT" finished-at="2020-06-22T22:58:54 CDT">
+      <class name="SeleniumTopics.DropDowns.Task5">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:SeleniumTopics.DropDowns.Task5@6536e911]" name="setDriver" is-config="true" duration-ms="2682" started-at="2020-06-22T22:58:34 CDT" finished-at="2020-06-22T22:58:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Task5()[pri:0, instance:SeleniumTopics.DropDowns.Task5@6536e911]" name="Task5" duration-ms="6847" started-at="2020-06-22T22:58:47 CDT" finished-at="2020-06-22T22:58:54 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Task5 -->
+      </class> <!-- SeleniumTopics.DropDowns.Task5 -->
+      <class name="SeleniumTopics.DropDowns.Task2">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:SeleniumTopics.DropDowns.Task2@5f9d02cb]" name="setDriver" is-config="true" duration-ms="2882" started-at="2020-06-22T22:58:22 CDT" finished-at="2020-06-22T22:58:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Task2()[pri:0, instance:SeleniumTopics.DropDowns.Task2@5f9d02cb]" name="Task2" duration-ms="6504" started-at="2020-06-22T22:58:37 CDT" finished-at="2020-06-22T22:58:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Task2 -->
+      </class> <!-- SeleniumTopics.DropDowns.Task2 -->
+      <class name="SeleniumTopics.DropDowns.Task1">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:SeleniumTopics.DropDowns.Task1@370736d9]" name="setDriver" is-config="true" duration-ms="6168" started-at="2020-06-22T22:58:16 CDT" finished-at="2020-06-22T22:58:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Task1()[pri:0, instance:SeleniumTopics.DropDowns.Task1@370736d9]" name="Task1" duration-ms="344" started-at="2020-06-22T22:58:36 CDT" finished-at="2020-06-22T22:58:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Task1 -->
+      </class> <!-- SeleniumTopics.DropDowns.Task1 -->
+      <class name="SeleniumTopics.DropDowns.Task4">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:SeleniumTopics.DropDowns.Task4@6b09bb57]" name="setDriver" is-config="true" duration-ms="2856" started-at="2020-06-22T22:58:31 CDT" finished-at="2020-06-22T22:58:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Task4()[pri:0, instance:SeleniumTopics.DropDowns.Task4@6b09bb57]" name="Task4" duration-ms="1408" started-at="2020-06-22T22:58:45 CDT" finished-at="2020-06-22T22:58:47 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Task4 -->
+      </class> <!-- SeleniumTopics.DropDowns.Task4 -->
+      <class name="SeleniumTopics.DropDowns.Task3">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:SeleniumTopics.DropDowns.Task3@63753b6d]" name="setDriver" is-config="true" duration-ms="5655" started-at="2020-06-22T22:58:25 CDT" finished-at="2020-06-22T22:58:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Task3()[pri:0, instance:SeleniumTopics.DropDowns.Task3@63753b6d]" name="Task3" duration-ms="1998" started-at="2020-06-22T22:58:43 CDT" finished-at="2020-06-22T22:58:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Task3 -->
+      </class> <!-- SeleniumTopics.DropDowns.Task3 -->
+    </test> <!-- /Users/ridvangunduz/IdeaProjects/SeleniumPracticeTest/SeleniumPractice/src/test/java/SeleniumTopics/DropDowns -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/ridvangunduz/IdeaProjects/SeleniumPracticeTest/SeleniumPractice/src/test/java/SeleniumTopics/DropDowns">
+        <classes>
+            <class name="SeleniumTopics.DropDowns.Task1">
+                <methods>
+                    <include name="Task1"/>
+                </methods>
+            </class>
+            <class name="SeleniumTopics.DropDowns.Task2">
+                <methods>
+                    <include name="Task2"/>
+                </methods>
+            </class>
+            <class name="SeleniumTopics.DropDowns.Task3">
+                <methods>
+                    <include name="Task3"/>
+                </methods>
+            </class>
+            <class name="SeleniumTopics.DropDowns.Task4">
+                <methods>
+                    <include name="Task4"/>
+                </methods>
+            </class>
+            <class name="SeleniumTopics.DropDowns.Task5">
+                <methods>
+                    <include name="Task5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
