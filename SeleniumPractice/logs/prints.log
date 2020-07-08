@@ -1,3 +1,5 @@
 15:27:35.322 [main] DEBUG PageObjectModel.TestCases.GoogleTest - gets title and quit driver
 15:27:35.335 [main] INFO  PageObjectModel.TestCases.GoogleTest - Completed Successfully
 15:27:35.340 [main] INFO  PageObjectModel.TestCases.GoogleTest - Test ended!!!
+03:46:17.859 [main] ERROR ApacheLog4j.Alpha.Demo - Button is NOT displayed
+03:46:17.863 [main] FATAL ApacheLog4j.Alpha.Demo - Button is missing
